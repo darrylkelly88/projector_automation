@@ -1,0 +1,6 @@
+---
+# defaults file for projector_playlist
+projector_url:
+  - 10.250.247.186
+  - 10.250.247.185
+  - 10.250.247.187

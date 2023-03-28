@@ -1,0 +1,9 @@
+---
+# tasks file for projector_power
+- name: Change projector {{ projector_url }} to power {{ power_status }}
+  ansible.builtin.uri:
+    url: "http://{{item}}/api/v01/contentmgr/remote/power/{{power_status}}/"
+    method: POST
+    status_code: 200
+  loop: "{{projector_url}}"
+

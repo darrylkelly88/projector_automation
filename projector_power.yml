@@ -1,0 +1,5 @@
+---
+- name: change projector power status
+  hosts: localhost
+  roles:
+    - projector_power

@@ -1,0 +1,8 @@
+---
+# tasks file for projector_playlist
+- name: Change projector {{projector_url}} playlist to playlist ID {{playlist_id}}
+  ansible.builtin.uri:
+    url: "http://{{item}}/api/v01/contentmgr/playlist/play/{{playlist_id}}/"
+    method: POST
+    status_code: 200
+  loop: "{{projector_url}}"

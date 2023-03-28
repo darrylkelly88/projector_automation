@@ -1,0 +1,5 @@
+---
+- name: change the projector playlist
+  hosts: localhost
+  roles:
+    - projector_playlist
