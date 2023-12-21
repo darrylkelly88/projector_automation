@@ -1,6 +1,6 @@
 ---
 # defaults file for projector_power
 projector_url:
-  - 10.250.247.186
-  - 10.250.247.185
-  - 10.250.247.187
+  - projector-cloudhub.tdpc.local
+  - projector-frontdoor.tdpc.local
+  - projector-dellhub.tdpc.local
